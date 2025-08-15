@@ -15,6 +15,13 @@
 
         body, html {
             height: 100%;
+            overflow: hidden;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .bvn-form {
@@ -41,10 +48,10 @@
 </head>
 <body>
     <form>
-        <div class="bvn-form">
+        <section class="bvn-form">
             <label for="bvn">BVN: </label>
             <input type="text" name="bvn" id="bvn" placeholder="Enter your BVN" pattern="[a-zA-Z0-9]+" required>
-        </div>
+        </section>
     </form>
 </body>
 </html>
